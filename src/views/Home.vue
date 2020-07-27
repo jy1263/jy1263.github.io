@@ -1,18 +1,57 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="topper">
+      <img class="pfp" alt="Vue logo" src="https://github.com/jy1263.png">
+      <div class="title">Hi, I'm Amy. A student based in Sydney who likes to mess around with music stuff. <br> Here's a lil page for my accounts.</div>
+    </div>
+    <Social class="social"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Social from '@/components/Social.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Social
   }
 }
 </script>
+
+<style lang="less" scoped>
+.topper {
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  color: #e22c78;
+  margin: 8px;
+  font-size: 20pt;
+}
+.pfp {
+  border-radius: 100%;
+  margin: 8px;
+}
+.social {
+  justify-self: flex-end;
+  margin-bottom: auto;
+  display: flex;
+  margin: 8px;
+}
+
+</style>
