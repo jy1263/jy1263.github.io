@@ -53,5 +53,7 @@ export default {
   display: flex;
   margin: 8px;
 }
-
+img {
+  height: 52.8%;
+}
 </style>
