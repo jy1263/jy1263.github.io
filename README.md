@@ -1,3 +1,19 @@
+# about
 
-![Screenshot, showing Go in blue, XSLT in pink, EmberScript in off-white, Gnuplot in a slightly paler pink, and Processing in a slightly darker blue](screenshot.png)
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
