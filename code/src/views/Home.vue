@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <div class="topper">
-      <img class="pfp" alt="Vue logo" src="https://github.com/jy1263.png">
-      <div class="title">Hi, I'm Amy. A student based in Sydney who likes to mess around with music stuff. <br> Here's a lil page for my accounts.</div>
+      <img class= "pfp" alt="Vue logo" src="https://github.com/jy1263.png">
     </div>
+    <div class="title">Hi, I'm Amy. A student based in Sydney who likes to mess around with music stuff. <br> Here's a lil page for my accounts.</div>
     <Social class="social"/>
   </div>
 </template>
@@ -22,15 +22,14 @@ export default {
 
 <style lang="less" scoped>
 .topper {
-  flex-grow: 1;
-  flex-direction: column;
+  width: 100%;
+  height: auto;
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
+  padding: 8px;
 }
 .home {
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -44,16 +43,11 @@ export default {
   font-size: 20pt;
 }
 .pfp {
+  position: relative;
+  max-height: 50vh;
+  max-width: 50vh;
+  width: auto;
+  overflow: hidden;
   border-radius: 100%;
-  margin: 8px;
-}
-.social {
-  justify-self: flex-end;
-  margin-bottom: auto;
-  display: flex;
-  margin: 8px;
-}
-img {
-  height: 52.8%;
 }
 </style>
