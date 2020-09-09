@@ -1,3 +1,6 @@
+const path = require("path");
+
 module.exports = {
-    publicPath:'/'
+    publicPath:'/',
+    outputDir: path.resolve(__dirname, "../docs"),
 }
