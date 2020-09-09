@@ -26,7 +26,7 @@ export default {
   align-items: center;
   justify-content: center;
   display: flex;
-  padding: 8px;
+  margin: 8px;
 }
 .home {
   align-items: center;

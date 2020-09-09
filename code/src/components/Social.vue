@@ -43,6 +43,8 @@ export default {
   align-content: center;
   justify-content: center;
   text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
   & a {
     border-radius: 8px;
     border: 0px;
