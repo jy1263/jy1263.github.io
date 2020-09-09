@@ -79,5 +79,12 @@ a {
 pre {
   width: 100%;
   overflow:hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
 }
 </style>
