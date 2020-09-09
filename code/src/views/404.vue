@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Portfolio coming soon...</h1>
+    <h1>Error 404: Have a nice day.</h1>
     <pre id="d" style="background-color:#000; color:#ccc; font-size: 10pt;"></pre>
     Spinning Donut Code is by <a href="https://www.a1k0n.net/2011/07/20/donut-math.html">a1k0n</a>
   </div>
@@ -11,8 +11,13 @@ export default {
   name: 'About',
   components: {
   },
+  data() {
+      return {
+          donut: ""
+      }
+  },
   mounted() {
-    
+        
     console.log("start")
     
     //courtesy of https://www.a1k0n.net/2011/07/20/donut-math.html
@@ -67,7 +72,6 @@ export default {
     anim1();
   },
   methods: {
-
   }
 }
 </script>
