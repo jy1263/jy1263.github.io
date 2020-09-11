@@ -1,18 +1,19 @@
 <template>
   <div class="social">
-      <a href="https://github.com/jy1263">Github</a>
-      <a href="https://twitter.com/jy126orjy126">Twitter</a>
-      <a href="https://www.instagram.com/ayanamy.jy1263/">Instagram</a>
-      <a href="https://github.com/jy1263/jy1263.github.io">This Repository</a>
-      <a href="https://app.matter.online/artists/@ayanamy">Matter Music</a>
-      <a href="https://open.spotify.com/artist/15HdoPMP89EsIfIvN1coko?si=pyuDsYIpRcu2AHDYVYIn-Q">Spotify</a>
-      <a href="https://soundcloud.com/owotter">Soundcloud</a>
-      <a href="https://soundcloud.com/owotterwip">WIP Soundcloud</a>
-      <a href="https://www.youtube.com/watch?v=ucbx9we6EHk">If it isn't clear enough</a>
+      <a href="https://github.com/jy1263"><span class="mdi mdi-github"/>Github</a>
+      <a href="https://twitter.com/jy126orjy126"><span class="mdi mdi-twitter"/>Twitter</a>
+      <a href="https://www.instagram.com/ayanamy.jy1263/"><span class="mdi mdi-instagram"/>Instagram</a>
+      <a href="https://github.com/jy1263/jy1263.github.io"><span class="mdi mdi-github"/>This Repository</a>
+      <a href="https://app.matter.online/artists/@ayanamy"><span class="mdi mdi-music-circle"/>Matter Music</a>
+      <a href="https://open.spotify.com/artist/15HdoPMP89EsIfIvN1coko?si=pyuDsYIpRcu2AHDYVYIn-Q"><span class="mdi mdi-spotify"/>Spotify</a>
+      <a href="https://soundcloud.com/owotter"><span class="mdi mdi-soundcloud"/>Soundcloud</a>
+      <a href="https://soundcloud.com/owotterwip"><span class="mdi mdi-soundcloud"/>WIP Soundcloud</a>
+      <a href="https://www.youtube.com/watch?v=ucbx9we6EHk"><span class="mdi mdi-youtube"/>If it isn't clear enough</a>
   </div>
 </template>
 
 <script>
+import '@mdi/font/css/materialdesignicons.css';
 export default {
   name: 'Social',
   props: {
@@ -56,6 +57,9 @@ export default {
     background: rgba(0, 0, 0, 0.3);
     cursor: pointer;
     text-decoration: none;
+    & .mdi {
+      margin-right: 4px;
+    }
   }
 }
 </style>
