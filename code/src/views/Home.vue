@@ -26,7 +26,6 @@ export default {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: 8px;
 }
 .home {
   align-items: center;
@@ -48,5 +47,6 @@ export default {
   width: auto;
   overflow: hidden;
   border-radius: 100%;
+  margin: 8px;
 }
 </style>
