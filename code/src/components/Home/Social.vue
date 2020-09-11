@@ -2,10 +2,10 @@
   <div class="social">
       <a href="https://github.com/jy1263">Github</a>
       <a href="https://twitter.com/jy126orjy126">Twitter</a>
-      <a href="https://www.instagram.com/owotter.jy1263/">Instagram</a>
+      <a href="https://www.instagram.com/ayanamy.jy1263/">Instagram</a>
       <a href="https://github.com/jy1263/jy1263.github.io">This Repository</a>
-      <a href="https://app.matter.online/artists/@owotter">Matter Music</a>
-      <a href="https://open.spotify.com/artist/15HdoPMP89EsIfIvN1coko?si=pCaGNeQBQDagLPsoQaD41A">Spotify</a>
+      <a href="https://app.matter.online/artists/@ayanamy">Matter Music</a>
+      <a href="https://open.spotify.com/artist/15HdoPMP89EsIfIvN1coko?si=pyuDsYIpRcu2AHDYVYIn-Q">Spotify</a>
       <a href="https://soundcloud.com/owotter">Soundcloud</a>
       <a href="https://soundcloud.com/owotterwip">WIP Soundcloud</a>
       <a href="https://www.youtube.com/watch?v=ucbx9we6EHk">If it isn't clear enough</a>
