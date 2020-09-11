@@ -30,7 +30,7 @@ export default {
     // donut.c code
   },
   methods: {
-      asciiframe: function() {
+    asciiframe: function() {
         var b=[];
         var z=[];
         this.$data.A += 0.07;
