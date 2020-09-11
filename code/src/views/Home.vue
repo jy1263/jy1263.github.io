@@ -10,7 +10,7 @@
 
 <script>
 // @ is an alias to /src
-import Social from '@/components/Social.vue'
+import Social from '@/components/Home/Social.vue'
 export default {
   name: 'Home',
   components: {
