@@ -13,6 +13,20 @@
 <script>
 export default {
   name: "App",
+  data() {
+    return{
+      typedLetters: []
+    }
+  },
+  mounted() {
+    window.addEventListener('keyup', (ev) => {
+      this.$data.typedLetters.unshift(ev.key)
+      this.$data.typedLetters.length=20;
+      if (this.$data.typedLetters.slice().reverse().join("").includes("namida")) {
+        this.$router.push('namida')
+      }
+    });
+  }
 }
 </script>
 
