@@ -16,7 +16,7 @@ export default {
   },
   data() {
     return {
-        namida:"",
+        namida: "Please enable autoplay for audio.",
         current: 14,
         songloaded: false,
         amountCount: 0,
